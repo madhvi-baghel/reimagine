@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "SaolDisplay-Regular";
+  src: url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.eot");
+  src: url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.svg#SaolDisplay-Regular")
+      format("svg");
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+:root {
+  --circle-outline: #505050;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SaolDisplay-Regular";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 5vh;
+
+  position: relative;
+  z-index: 99;
+}
+
+.logo,
+.cart {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  height: 40%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.links a,
+i {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+
+.banner {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+.videoContainer {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.videoContainer2 {
+  width: 70%;
+  height: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.videoContainer video {
+  width: 55%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.videoContainer2 video {
+  width: 55%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text {
+  width: 30%;
+  position: relative;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2vw;
+}
+.text2 {
+  width: 30%;
+  position: relative;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2vw;
+}
+.text h1 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: right;
+  letter-spacing: -0.01rem;
+}
+.text2 h1 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: right;
+  letter-spacing: -0.01rem;
+}
+.Btn {
+  width: 45px;
+  height: 45px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  border: none;
+}
+
+.arrow {
+  pointer-events: none;
+}
+
+.arrow path {
+  fill: white;
+}
+
+/* cards */
+.section-p1 {
+  padding-top: 0%;
+}
+.product1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 0.5px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+.product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.06);
+}
+.product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  /* width: 280px; */
+  height: 300px;
+  object-fit: cover;
+}
+.product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+.product1 .pro .des span {
+  /* color: #606063; */
+  font-size: 12px;
+}
+.product1 .pro .des h3 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+.product1 .pro .des i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+.product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-weight: 500;
+  /* color: #088178; */
+  border: 1px solid #000000;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+@media (max-width:765px) {
+  .product1 .pro-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media (max-width:465px){
+  .banner {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 2vw;
+  }
+  .videoContainer {
+    justify-content: center;
+  }
+  .videoContainer2 {
+    width: 55%;
+    justify-content: center;
+  }
+  .text h1 {
+    font-size: 2.2rem;
+    text-align: right;
+  }
+  .text2 h1 {
+    font-size: 2.2rem;
+    text-align: right;
+  }
+  .product1 .pro-container {
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+@media (max-width:360px){
+  .videoContainer {
+    justify-content: center;
+  }
+  .text h1 {
+    font-size: 2rem;
+    text-align: right;
+  }
+  .text2 h1 {
+    font-size: 1.8rem;
+    text-align: right;
+  }
+  .videoContainer2 {
+    width: 55%;
+    justify-content: center;
+  }
+}

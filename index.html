@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zara Redesign</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- PreLoader -->
+    <div class="loader">
+      <h1 class="counter">0</h1>
+
+      <div class="site-teaser">
+        <span>Site is loading....</span>
+      </div>
+
+      <div class="circles">
+        <div class="circle circle-outer"></div>
+        <div class="circle circle-inner"></div>
+        <div class="circle circle-inner-rotater"></div>
+        <div class="block"></div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/2560px-Zara_Logo.svg.png"
+            alt=""
+          >
+        </div>
+        <div class="links">
+          <a href="./index.html">Home</a>
+          <a href="./men.html">Man</a>
+          <a href="./woman.html">Women</a>
+          <a href="./perfumes.html">Perfumes</a>
+          <button class="login" onclick="location.href='./login.html'">
+            <ion-icon name="person" class="person"></ion-icon>
+            Log in
+        </button>
+        <button class="signup" onclick="location.href='./signup.html'">
+            <ion-icon name="person" class="person"></ion-icon>
+           Sign up
+        </button>
+          <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+          <!-- <i class="fa-solid fa-moon"></i> -->
+        </div>
+         <div class="cart">
+           <i class="fa-solid fa-bag-shopping"></i>
+        </div> 
+         </nav>
+
+      <!-- img slider -->
+      <div class="slide-wrap">
+        <div id="slide">
+          <div class="item" style="background-image: url(./img/1.webp)">
+            <div class="content">
+              <div class="name"><h2>OXFORD SHIRT</h2></div>
+              <div class="des">
+                Shirt with a johnny collar, long sleeves and a button-up front.
+              </div>
+             
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/1.11.jpg)">
+            <div class="content">
+              <div class="name"><h2>BLAZER WITH CONTRAST CUFFS</h2></div>
+              <div class="des">Blazer made of a linen blend.</div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/3.webp)">
+            <div class="content">
+              <div class="name"><h2>POLO TOP</h2></div>
+              <div class="des">
+                Shirt with a johnny collar, long sleeves and a button-up front.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/11.jpg)">
+            <div class="content">
+              <div class="name"><h2>RIBBED HALTER VEST TOP</h2></div>
+              <div class="des">Sleeveless round neck waistcoat top.</div>
+             
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/2.11.jpg)">
+            <div class="content">
+              <div class="name"><h2>FITTED HALTER TOP</h2></div>
+              <div class="des">
+                Halter top with lapel collar and surplice neckline.
+              </div>
+
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/1.13.jpg)">
+            <div class="content">
+              <div class="name"><h2>BOAT NECK CROP TOP</h2></div>
+              <div class="des">
+                Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu
+              </div>
+
+            </div>
+          </div>
+          <!-- change the name and desc and add glass effect Vishal and Tulip  -->
+          <div class="item" style="background-image: url(./img/7.webp)">
+            <div class="content">
+              <div class="name"><h2>RUFFLED TOP WITH CONTRAST TRIMS</h2></div>
+              <div class="des">Sleeveless top with a V-neckline.</div>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/2.4.jpg)">
+            <div class="content">
+              <div class="name"><h2>BOAT NECK CROP TOP</h2></div>
+              <div class="des">
+                fuzzy white dress, showcasing a bold, contemporary fashion
+                aesthetic
+              </div>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/1.9.jpg)">
+            <div class="content">
+              <div class="name"><h2>RUSTIC WAISTCOAT TOP</h2></div>
+              <div class="des">
+                V-neck waistcoat top. Front false welt pockets.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/10.webp)">
+            <div class="content">
+              <div class="name"><h2>OPEN KNIT TOP</h2></div>
+              <div class="des">
+                Sleeveless top with a round neck and a buttoned opening at the
+                back.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/11.webp)">
+            <div class="content">
+              <div class="name"><h2>KNIT KAFTAN WITH FRINGING</h2></div>
+              <div class="des">
+                Kaftan with a round neck and short sleeves. Fringe trims.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/1.2.jpg)">
+            <div class="content">
+              <div class="name"><h2>MASCULINE WAISTCOAT</h2></div>
+              <div class="des">
+                Fitted waistcoat with a lapel collar and V-neckline.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/13.webp)">
+            <div class="content">
+              <div class="name"><h2>TAILORED WAISTCOAT</h2></div>
+              <div class="des">
+                Fitted waistcoat with a lapel collar and V-neckline.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/1.7.jpg)">
+            <div class="content">
+              <div class="name"><h2>GINGHAM HALTER TOP</h2></div>
+              <div class="des">
+                Halter top with lapel collar and surplice neckline.
+              </div>
+              
+            </div>
+          </div>
+          <div class="item" style="background-image: url(./img/15.webp)">
+            <div class="content">
+              <div class="name"><h2>CONTRAST GINGHAM TOP</h2></div>
+              <div class="des">
+                Top with a round neckline and elasticated straps.
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+          <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+      <!-- horizontal scroll -->
+
+      <div class="horizontal-scroll">
+        <div class="marker-wrapper">
+          <div class="marker"></div>
+        </div>
+        <div class="slider">
+          <div class="slider-wrapper">
+            <div class="slide">
+              <img src="img/9.webp" alt="img" >
+            </div>
+            <div class="slide">
+              <img src="img/1.15.jpg" alt="img">
+            </div>
+            <div class="slide">
+              <img src="img/7.jpg" alt="img">
+            </div>
+            <div class="slide">
+              <img src="img/1.11.jpg" alt="img">
+            </div>
+            <div class="slide">
+              <img src="img/14.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- photo gallery -->
+
+      <div class="photo-gallery">
+        <section class="title-gallery">
+          <h1 class="galleryTitle1">Trending Apparels</h1>
+        </section>
+
+        <section>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <!-- Repeat -->
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+          <div class="galleryImg"></div>
+        </section>
+      </div>
+      <!-- cards section -->
+
+      <div id="card-container" class="card-container">
+        <div class="overlay">
+          <div class="t-1 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-2 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-3 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-4 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-5 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-6 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-7 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-8 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-9 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+          <div class="t-10 marquee-wrapper">
+            <h1>ZARA FASHION TRENDS</h1>
+          </div>
+        </div>
+        <div class="model">
+          <div class="model-image">
+            <div class="img" id="t-1">
+              <img src="./img/card pics/card-pic-1.jpg" alt="img">
+            </div>
+            <div class="img" id="t-2">
+              <img src="./img/card pics/card-pic-2.jpg" alt="img">
+            </div>
+            <div class="img" id="t-3">
+              <img src="./img/card pics/card-pic-3.jpg" alt="img">
+            </div>
+            <div class="img" id="t-4">
+              <img src="./img/card pics/card-pic-4.jpg" alt="img">
+            </div>
+            <div class="img" id="t-5">
+              <img src="./img/card pics/card-pic-6.jpg" alt="img">
+            </div>
+            <div class="img" id="t-6">
+              <img src="./img/card pics/card-pic-7.jpg" alt="img">
+            </div>
+            <div class="img" id="t-7">
+              <img src="./img/card pics/card-pic-8.jpg" alt="img">
+            </div>
+            <div class="img" id="t-8">
+              <img src="./img/card pics/card-pic-9.jpg" alt="img">
+            </div>
+            <div class="img" id="t-9">
+              <img src="./img/card pics/card-pic-10.jpg" alt="img">
+            </div>
+            <div class="img" id="t-10">
+              <img src="./img/card pics/card-pic-11.jpg" alt="img">
+            </div>
+          </div>
+          <div class="info">
+            <p class="name">Ava sinclairs</p>
+            <p class="role">Creative Director</p>
+          </div>
+        </div>
+        <div class="cursor">
+          <i class="ph-light ph-arrow-left"></i>
+        </div>
+      </div>
+
+      <div class="mainfooter">
+        <div id="bg">
+          <video autoplay muted loop id="myVideo">
+            <source src="./img/pay/bg - Made with Clipchamp.mp4" type="video/mp4"/>
+          </video>
+
+          <div class="newsletter-container">
+            <div class="newsletter-content">
+              <h2>Sign Up For Newsletters</h2>
+              <p>Get email updates about our latest shop and special offers.</p>
+            </div>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Your Email Address" >
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <footer class="section-p1">
+          <div class="col">
+            <img
+              class="footer-logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/2560px-Zara_Logo.svg.png"
+              alt=""
+              loading="lazy"
+            >
+            <h4>Contact</h4>
+            <p>
+              <strong>Address:</strong> 562 Wellington Road , Street 32 , San
+              Francisco
+            </p>
+            <p><strong>Phone:</strong> +01 2222 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+              <h4>Follow us</h4>
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+          </div>
+          <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+              <img src="img/pay/app.jpg" alt="pay" loading="lazy">
+              <img src="img/pay/play.jpg" alt="pay" loading="lazy">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="pay" loading="lazy">
+          </div>
+
+          <div class="copyright">
+            <p>&copy; 2024,ZARA</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

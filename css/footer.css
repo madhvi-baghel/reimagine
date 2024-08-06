@@ -1,0 +1,189 @@
+/* BACKGROUND */
+
+#bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Newsletter Section */
+
+.newsletter-container {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+.newsletter-content {
+  text-align: left;
+  color: #fff;
+  margin-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.newsletter-form {
+  text-align: right;
+  padding-right: 60px;
+}
+
+.newsletter-form input[type="email"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+footer .follow {
+  margin-top: 20px;
+}
+footer .follow i {
+  padding-right: 4px;
+  cursor: pointer;
+}
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .newsletter-container {
+    flex-direction: column;
+  }
+
+  .newsletter-content,
+  .newsletter-form {
+    text-align: center;
+    margin: 0;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+}
+
+/* Responsive styles */
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust the height of the background */
+  #bg {
+    height: 40%; /* Adjust the height as needed */
+  }
+
+  /* Center align the newsletter content and form */
+  .newsletter-container {
+    /* flex-direction: column; */
+    /* align-items: center;
+    text-align: center; */
+    top: 4%;
+  }
+
+  .newsletter-content p,
+  h2 {
+    font-size: 20px;
+  }
+
+  .newsletter-content,
+  .newsletter-form {
+    margin: 0;
+  }
+
+  /* Make the email input field full width */
+  .newsletter-form input[type="email"] {
+    width: 80%; /* Adjust width as needed */
+    max-width: 300px; /* Add max-width for better responsiveness */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  /* Make the signup button full width */
+  .newsletter-form button {
+    width: 80%; /* Adjust width as needed */
+    max-width: 300px; /* Add max-width for better responsiveness */
+  }
+
+  /* Make the footer columns stack vertically */
+  .section-p1 {
+    padding-top: 10%;
+    font-size: 30px;
+  }
+
+  footer .col {
+    margin-bottom: 20px; /* Increase margin between columns */
+    width: 100%;
+  }
+
+  /* Center align the footer logo */
+  footer .footer-logo {
+    margin: 0 auto 30px; /* Center align the logo and add bottom margin */
+  }
+}
